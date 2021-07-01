@@ -71,6 +71,13 @@
             "page": "",
             "icon": "eye"
           }
+        },
+        "b31e3ee7-f718-44a5-84cb-df177ccc3e47": {
+          "type": "popup",
+          "settings": {
+            "link_label": "Pop-up link text",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -84,7 +91,8 @@
         "description",
         "share",
         "5e4dda18-5fe8-4d3f-bd3f-252feb69a742",
-        "cb7a8daf-6627-41bf-b16e-0bcc58da75b3"
+        "cb7a8daf-6627-41bf-b16e-0bcc58da75b3",
+        "b31e3ee7-f718-44a5-84cb-df177ccc3e47"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -98,7 +106,7 @@
         "image_ratio": "adapt",
         "show_secondary_image": false,
         "add_image_padding": false,
-        "show_vendor": false
+        "show_vendor": true
       }
     },
     "162516856178a4a0cc": {
