@@ -54,29 +54,13 @@
           "settings": {
           }
         },
-        "5e4dda18-5fe8-4d3f-bd3f-252feb69a742": {
+        "700d154e-849c-41a3-86ca-7380920d2988": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Collapsible tab",
             "content": "",
             "page": "",
-            "icon": "dryer"
-          }
-        },
-        "cb7a8daf-6627-41bf-b16e-0bcc58da75b3": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Guide d’entretien",
-            "content": "<p>{{ product.metafields.descriptors.care_guide | metafield_tag }}<\/p>",
-            "page": "",
-            "icon": "eye"
-          }
-        },
-        "b31e3ee7-f718-44a5-84cb-df177ccc3e47": {
-          "type": "popup",
-          "settings": {
-            "link_label": "Pop-up link text",
-            "page": ""
+            "icon": "check_mark"
           }
         }
       },
@@ -90,9 +74,7 @@
         "buy_buttons",
         "description",
         "share",
-        "5e4dda18-5fe8-4d3f-bd3f-252feb69a742",
-        "cb7a8daf-6627-41bf-b16e-0bcc58da75b3",
-        "b31e3ee7-f718-44a5-84cb-df177ccc3e47"
+        "700d154e-849c-41a3-86ca-7380920d2988"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -106,63 +88,12 @@
         "image_ratio": "adapt",
         "show_secondary_image": false,
         "add_image_padding": false,
-        "show_vendor": true
-      }
-    },
-    "162516856178a4a0cc": {
-      "type": "rich-text",
-      "blocks": {
-        "162516856178a4a0cc-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "medium"
-          }
-        },
-        "162516856178a4a0cc-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "162516856178a4a0cc-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "162516856178a4a0cc-0",
-        "162516856178a4a0cc-1",
-        "162516856178a4a0cc-2"
-      ],
-      "settings": {
-        "color_scheme": "inverse",
-        "full_width": true
-      }
-    },
-    "1625168673d7081c3b": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured collection",
-        "collection": "",
-        "products_to_show": 2,
-        "show_view_all": true,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "add_image_padding": false,
         "show_vendor": false
       }
     }
   },
   "order": [
     "main",
-    "product-recommendations",
-    "162516856178a4a0cc",
-    "1625168673d7081c3b"
+    "product-recommendations"
   ]
 }
