@@ -57,10 +57,17 @@
         "700d154e-849c-41a3-86ca-7380920d2988": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible tab",
-            "content": "",
+            "heading": "Caractéristiques",
+            "content": "<p>{{ product.vendor }}<\/p><p>{{ product.metafields.facts.ean.value }}<\/p><p><\/p>",
             "page": "",
             "icon": "check_mark"
+          }
+        },
+        "694b94f4-e2ad-425d-b654-2f20e4dc7870": {
+          "type": "text",
+          "settings": {
+            "text": "Histoire de la marque Mestres ici",
+            "text_style": "body"
           }
         }
       },
@@ -74,7 +81,8 @@
         "buy_buttons",
         "description",
         "share",
-        "700d154e-849c-41a3-86ca-7380920d2988"
+        "700d154e-849c-41a3-86ca-7380920d2988",
+        "694b94f4-e2ad-425d-b654-2f20e4dc7870"
       ],
       "settings": {
         "enable_sticky_info": true,
