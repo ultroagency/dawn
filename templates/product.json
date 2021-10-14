@@ -98,10 +98,46 @@
         "add_image_padding": false,
         "show_vendor": true
       }
+    },
+    "16342103693f0c86b5": {
+      "type": "rich-text",
+      "blocks": {
+        "16342103693f0c86b5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Histoire de la Maison Mestres",
+            "heading_size": "medium"
+          }
+        },
+        "16342103693f0c86b5-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "16342103693f0c86b5-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16342103693f0c86b5-0",
+        "16342103693f0c86b5-1",
+        "16342103693f0c86b5-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
     }
   },
   "order": [
     "main",
-    "product-recommendations"
+    "product-recommendations",
+    "16342103693f0c86b5"
   ]
 }
