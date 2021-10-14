@@ -58,7 +58,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Caractéristiques",
-            "content": "<p>{{ product.vendor }}<\/p><p>{{ product.metafields.facts.ean.value }}<\/p><p><\/p>",
+            "content": "<p>{{ product.vendor }}<\/p><p>{{ product.metafields.facts.ean.value }}{{ product.metafields.descriptors.care_guide | metafield_tag }}<\/p><p><\/p>",
             "page": "",
             "icon": "check_mark"
           }
