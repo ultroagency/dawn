@@ -69,6 +69,22 @@
             "text": "Histoire de la marque Mestres ici",
             "text_style": "body"
           }
+        },
+        "7c190300-d02d-4664-9253-cd883116ade8": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible tab",
+            "content": "",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "e180b4b5-995e-4a12-9100-dc0eb8c47c11": {
+          "type": "popup",
+          "settings": {
+            "link_label": "Pop-up link text",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -82,7 +98,9 @@
         "description",
         "share",
         "700d154e-849c-41a3-86ca-7380920d2988",
-        "694b94f4-e2ad-425d-b654-2f20e4dc7870"
+        "694b94f4-e2ad-425d-b654-2f20e4dc7870",
+        "7c190300-d02d-4664-9253-cd883116ade8",
+        "e180b4b5-995e-4a12-9100-dc0eb8c47c11"
       ],
       "settings": {
         "enable_sticky_info": true,
