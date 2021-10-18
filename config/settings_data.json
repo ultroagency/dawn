@@ -1,6 +1,7 @@
 {
   "current": {
-    "social_twitter_link": "twitter.com\/britishshoes",
+    "social_twitter_link": "https:\/\/twitter.com\/britishshoes",
+    "social_facebook_link": "https:\/\/facebook.com\/britishshoes",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
