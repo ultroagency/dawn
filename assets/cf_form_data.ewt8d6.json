@@ -43,6 +43,8 @@
     "created_at": "2022-02-02T16:18:45Z",
     "updated_at": "2022-02-02T16:35:21Z",
     "revision_ids": [
+      "orTY8kG",
+      "kdT5nb7",
       "qYTzL12",
       "wDTKNAO",
       "ErTAo2o",
@@ -50,11 +52,11 @@
     ]
   },
   "revision": {
-    "id": "qYTzL12",
-    "created_at": "2022-02-02T16:31:18Z",
-    "updated_at": "2022-02-02T16:35:22Z",
+    "id": "orTY8kG",
+    "created_at": "2022-02-02T16:49:42Z",
+    "updated_at": "2022-02-02T16:49:42Z",
     "embed_version": "4.8.4",
-    "published_at": "2022-02-02T16:35:22Z",
+    "published_at": null,
     "fields": [
       {
         "id": 649874,
@@ -79,12 +81,12 @@
         },
         "validations": [
           {
-            "metadata": {
-              "hiddenInApp": true
-            },
             "operator": "not_blank",
             "comparand": "",
-            "errorMessage": "Ce champ est requis"
+            "errorMessage": "Ce champ est requis",
+            "metadata": {
+              "hiddenInApp": true
+            }
           }
         ],
         "sensitive": null,
@@ -114,12 +116,12 @@
         },
         "validations": [
           {
-            "metadata": {
-              "hiddenInApp": true
-            },
             "operator": "not_blank",
             "comparand": "",
-            "errorMessage": "Ce champ est requis"
+            "errorMessage": "Ce champ est requis",
+            "metadata": {
+              "hiddenInApp": true
+            }
           }
         ],
         "sensitive": null,
@@ -154,12 +156,12 @@
             "errorMessage": "Merci de saisir une adresse valide"
           },
           {
-            "metadata": {
-              "hiddenInApp": true
-            },
             "operator": "not_blank",
             "comparand": "",
-            "errorMessage": "Ce champ est requis"
+            "errorMessage": "Ce champ est requis",
+            "metadata": {
+              "hiddenInApp": true
+            }
           }
         ],
         "sensitive": null,
@@ -189,24 +191,24 @@
         },
         "validations": [
           {
-            "metadata": {
-              "hiddenInApp": true
-            },
             "operator": "not_blank",
             "comparand": "",
-            "errorMessage": "Ce champ est requis"
+            "errorMessage": "Ce champ est requis",
+            "metadata": {
+              "hiddenInApp": true
+            }
           },
           {
+            "operator": "longer_than",
+            "comparand": 6,
+            "errorMessage": "Votre mot de passe est trop court",
             "metadata": {
               "mandatory": true,
               "staticOperator": true,
               "comparandFieldProps": {
                 "min": 5
               }
-            },
-            "operator": "longer_than",
-            "comparand": 6,
-            "errorMessage": "Votre mot de passe est trop court"
+            }
           }
         ],
         "sensitive": true,
@@ -242,21 +244,21 @@
         },
         "validations": [
           {
+            "operator": "is_valid",
+            "comparand": null,
+            "errorMessage": "Ce champs est requis",
             "metadata": {
               "mandatory": true,
               "staticOperator": true
-            },
-            "operator": "is_valid",
-            "comparand": null,
-            "errorMessage": "Ce champs est requis"
+            }
           },
           {
-            "metadata": {
-              "hiddenInApp": true
-            },
             "operator": "not_blank",
             "comparand": "",
-            "errorMessage": "Ce champs est requis"
+            "errorMessage": "Ce champs est requis",
+            "metadata": {
+              "hiddenInApp": true
+            }
           }
         ],
         "sensitive": null,
@@ -323,6 +325,36 @@
         ],
         "sensitive": null,
         "preset": null,
+        "autotag": null
+      },
+      {
+        "id": 199671,
+        "dataColumn": {
+          "key": "accepts_marketing",
+          "label": "Accepts marketing",
+          "dataType": "boolean"
+        },
+        "parentId": null,
+        "position": 7,
+        "type": "checkbox",
+        "stepId": 360434,
+        "default": "",
+        "label": "Je souhaite m'inscrire à la newsletter Alvadiem",
+        "placeholder": "",
+        "description": "",
+        "enum": [
+
+        ],
+        "appearance": {
+          "width": 12
+        },
+        "settings": {
+        },
+        "validations": [
+
+        ],
+        "sensitive": null,
+        "preset": "accepts_marketing",
         "autotag": null
       }
     ],
