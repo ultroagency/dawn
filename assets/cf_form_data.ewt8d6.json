@@ -44,17 +44,17 @@
     "updated_at": "2022-02-02T16:35:21Z",
     "revision_ids": [
       "qYTzL12",
-      "ErTAo2o",
       "wDTKNAO",
+      "ErTAo2o",
       "evT9zPd"
     ]
   },
   "revision": {
     "id": "qYTzL12",
     "created_at": "2022-02-02T16:31:18Z",
-    "updated_at": "2022-02-02T16:31:19Z",
+    "updated_at": "2022-02-02T16:35:22Z",
     "embed_version": "4.8.4",
-    "published_at": "2022-02-02T16:31:19Z",
+    "published_at": "2022-02-02T16:35:22Z",
     "fields": [
       {
         "id": 649874,
