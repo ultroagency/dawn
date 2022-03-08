@@ -81,7 +81,8 @@
           {%- when 'title' -%}
             <h1 class="product__title" {{ block.shopify_attributes }}>
               {{ product.title | escape }}
-              <!-- Stamped - Begin Star Rating Badge -->
+            </h1>
+        <!-- Stamped - Begin Star Rating Badge -->
 <span 
 class="stamped-product-reviews-badge stamped-main-badge" 
 data-id="{{ product.id }}" 
@@ -92,7 +93,6 @@ style="display: block;">
 {{product.metafields.stamped.badge}}
 </span>
 <!-- Stamped - End Star Rating Badge --><br>
-            </h1>
           {%- when 'price' -%}
             <div class="no-js-hidden" id="price-{{ section.id }}" {{ block.shopify_attributes }}>
               {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
