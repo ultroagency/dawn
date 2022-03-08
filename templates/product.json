@@ -151,11 +151,18 @@
         "color_scheme": "background-1",
         "full_width": true
       }
+    },
+    "1646749998d970d683": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": ""
+      }
     }
   },
   "order": [
     "main",
     "product-recommendations",
-    "16342103693f0c86b5"
+    "16342103693f0c86b5",
+    "1646749998d970d683"
   ]
 }
