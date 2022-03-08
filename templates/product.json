@@ -155,7 +155,7 @@
     "1646749998d970d683": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": ""
+        "custom_liquid": "<!--Stamped - Begin Main Widget -->\n<div \nid=\"stamped-main-widget\"   \ndata-product-id=\"{{ product.id }}\"   \ndata-name=\"{{ product.title | escape }}\"   \ndata-url=\"{{ shop.url }}{{ product.url }}\"   \ndata-image-url=\"{{ product.featured_image | product_img_url: \"large\" |replace: '?', '%3F' | replace: '&','%26'}}\" \ndata-description=\"{{ product.description | escape }}\"   \ndata-product-sku=\"{{product.handle}}\"\ndata-product-title=\"{{product.title}}\" \ndata-product-type=\"{{product.type}}\">   \n{{product.metafields.stamped.reviews}}   \n<\/div>\n<!-- Stamped - End Main Widget -->"
       }
     }
   },
