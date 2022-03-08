@@ -66,6 +66,17 @@
           </div>
         {%- else -%}
           <div class="card__content"><h2 class="card__text h2">{{ product_card_product.title }}</h2></div>
+        <!-- Stamped - Begin Star Rating Badge -->
+<span 
+class="stamped-product-reviews-badge" 
+data-id="{{ product.id }}"
+data-product-sku="{{ product.handle }}" 
+data-product-type="{{product.type}}" 
+data-product-title="{{product.title}}" 
+style="display:block;">
+{{product.metafields.stamped.badge}}
+</span>
+<!-- Stamped - End Star Rating Badge -->
         {%- endif -%}
 
         <div class="card__badge">
